@@ -60,7 +60,7 @@ Value from pipeline by property name: False
 Value from remaining arguments: False
 ```
 
-## Outputs
+## OUTPUTS
 This cmdlet returns a SecureBootSVNInfo object with the following properties: 
 
 - **FirmwareSVN – The current SVN requirement enforced by the UEFI firmware.**
@@ -69,7 +69,7 @@ This cmdlet returns a SecureBootSVNInfo object with the following properties:
 - **ComplianceStatus – Indicates whether the boot manager meets the firmware’s SVN requirement.**
 - **BootManagerPath – (Optional) The path to the boot manager file tested, if specified.**
 
-## Notes 
+## NOTES 
 
 - This cmdlet is read-only and does not modify any firmware or system settings.
 - On systems without Secure Boot or UEFI support, the cmdlet returns an error or empty output.
@@ -85,7 +85,7 @@ This cmdlet returns a SecureBootSVNInfo object with the following properties:
 
 [Get-SecureBootUEFI](./Get-SecureBootUEFI.md)
 
-[Monitoring Secure Boot certificate status with Microsoft Intune remediations](https://support.microsoft.com/en-us/topic/monitoring-secure-boot-certificate-status-with-microsoft-intune-remediations-6696a27b-fa09-4570-b112-124965adc87f)
+[Monitoring Secure Boot certificate status with Microsoft Intune remediations](https://support.microsoft.com/topic/monitoring-secure-boot-certificate-status-with-microsoft-intune-remediations-6696a27b-fa09-4570-b112-124965adc87f)
 
-[Secure Boot Certificate Updates for Azure Virtual Desktop](https://support.microsoft.com/en-us/topic/secure-boot-certificate-updates-for-azure-virtual-desktop-06a8a1bc-2510-4ead-9bea-3698e1d6b1db)
+[Secure Boot Certificate Updates for Azure Virtual Desktop](https://support.microsoft.com/topic/secure-boot-certificate-updates-for-azure-virtual-desktop-06a8a1bc-2510-4ead-9bea-3698e1d6b1db)
 
