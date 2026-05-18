@@ -14,12 +14,6 @@ Gets Secure Boot Security Version Number (SVN) information and compliance status
 
 ## SYNTAX
 
-### YAML
-```
-Get-SecureBootSVN
-[-BootManagerPath <String>] 
-[<CommonParameters>] 
-```
 
 
 ## DESCRIPTION
