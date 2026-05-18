@@ -40,7 +40,7 @@ This command retrieves the firmwareâ€™s required SVN, the current boot managerâ€
 ### Example 2: Check SVN compliance for a specific boot manager file
 
 ### YAML
-```
+```powershell
 Get-SecureBootSVN -BootManagerPath "D:\Recovery\bootmgfw.efi"
 ```
 
